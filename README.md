@@ -16,3 +16,7 @@ clj -M:tdd
 ```
 
 And a nrepl, automated test run, and portal session will begin.
+
+One thing to note. The `:tdd` alias main assumes that you have a kaocha config
+file, with the name `tdd.edn` at the root of your project. This is named
+separately so you can tailor your TDD sessions.
