@@ -1,0 +1,20 @@
+{:paths
+ ["src"]
+
+ :deps
+ {cider/cider-nrepl {:mvn/version "0.26.0"}
+  lambdaisland/kaocha {:mvn/version "1.0.732"}
+  io.aviso/pretty {:mvn/version "0.1.37"}
+  djblue/portal {:mvn/version "0.13.0"}
+  cheshire/cheshire {:mvn/version "5.10.0"}
+  clj-commons/clj-yaml {:mvn/version "0.7.0"}
+
+  com.cognitect/rebl          {:mvn/version "0.9.242"}
+  org.openjfx/javafx-fxml     {:mvn/version "15-ea+6"}
+  org.openjfx/javafx-controls {:mvn/version "15-ea+6"}
+  org.openjfx/javafx-swing    {:mvn/version "15-ea+6"}
+  org.openjfx/javafx-base     {:mvn/version "15-ea+6"}
+  org.openjfx/javafx-web      {:mvn/version "15-ea+6"}
+  rickmoynihan/nrebl.middleware {:mvn/version "0.2.0"}}
+
+ :jvm-opts ["-XX:-OmitStackTraceInFastThrow"]}
